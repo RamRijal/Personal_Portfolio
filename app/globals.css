@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 body {
-  background-image: linear-gradient(to right, #360568, #491C91);
+  background-image: linear-gradient(to right, #2c0059, #4e1d9d);
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -10px
+    ); /* Adjust the value based on your preference */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.move-up-down {
+  animation: moveUpDown 2s infinite; /* Adjust the duration as needed */
 }

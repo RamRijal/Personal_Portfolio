@@ -2,26 +2,26 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <header className="relative z-10 flex items-center justify-between w-[96vw] m-auto ">
+        <header className="relative  z-10 flex items-center top-2 justify-between w-[96vw] m-auto ">
             {/* LOGO */}
             <div className="flex-shrink-0  ">
                 <a href="#" title="" className="flex">
-                    <h1 className='text-2xl text-gray-300 font-black'>Ram <span className='text-violet-700'>Rijal</span></h1>
+                    <h1 className='text-2xl text-gray-300 font-black'>My <span className='text-violet-700'>Logo</span></h1>
                 </a>
             </div>
 
             {/* NAVBAR */}
-            <div className="px-3 xl:w-fit left-0 backdrop-blur-4xl rounded-sm shadow-xl mx-auto border-white max-w-7xl sm:px-6 lg:px-8 ">
+            <div className="px-3 xl:w-fit left-0 backdrop-blur-3xl rounded-sm shadow-xl mx-auto border-white max-w-7xl sm:px-6 lg:px-8 ">
                 {/* NAV LINKS*/}
                 <nav className="flex  items-center justify-between h-16 lg:h-16 ">
                     <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-                        <a href="#" title="" className="text-xl font-medium text-white transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Home </a>
+                        <a href="#" title="" className="text-xl font-normal text-gray-300 transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Home </a>
 
-                        <a href="#" title="" className="text-xl font-medium text-white transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Profile </a>
+                        <a href="#" title="" className="text-xl font-normal text-gray-300 transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Profile </a>
 
-                        <a href="#" title="" className="text-xl font-medium text-white transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Projects </a>
+                        <a href="#" title="" className="text-xl font-normal text-gray-300 transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Projects </a>
 
-                        <a href="#" title="" className="text-xl font-medium text-white transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Contact </a>
+                        <a href="#" title="" className="text-xl font-normal text-gray-300 transition-all duration-200 hover:text-violet-500 focus:text-violet-500 hover:-mt-1"> Contact </a>
                     </div>
                 </nav>
                 {/* HAMBURGER */}
