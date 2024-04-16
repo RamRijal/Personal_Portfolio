@@ -3,10 +3,10 @@ import Socials from "../components/Socials";
 
 const Main = () => {
   return (
-    <div className=" relative h-screen text-white overflow-hidden">
+    <div className=" relative h-screen  text-white overflow-hidden">
       {/* Background image */}
       <svg
-        className="BgAnimation__svg absolute -z-10"
+        className="BgAnimation__svg absolute -z-10 "
         viewBox="0 0 602 602"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -323,13 +323,15 @@ const Main = () => {
         </defs>
       </svg>
       {/* Text  */}
-      <div className="flex flex-col  justify-center items-center pt-16 ">
+      <div className="flex flex-col  justify-center items-center pt-16 lg:pt-16 md:pt-9 ">
         <h1 className="text-3xl font-medium pt-10">Hello!</h1>
         <h1 className="pt-12 pb-4 text-center font-semibold text-xl">I am</h1>
-        <h1 className="text-7xl font-semibold pb-4 ">Ram Rijal</h1>
-        <h1 className="p-10 text-5xl">
+        <h1 className="text-5xl md:text-7xl font-semibold pb-4  text-center ">
+          Ram Rijal
+        </h1>
+        <h1 className="p-10 md:text-5xl text-3xl text-center ">
           A Software <span>Developer</span>
-          <Socials/>
+          <Socials />
         </h1>
       </div>
     </div>
