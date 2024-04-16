@@ -23,3 +23,8 @@ body {
 .move-up-down {
   animation: moveUpDown 2s infinite; /* Adjust the duration as needed */
 }
+
+.style
+{
+color:transparent;
+}
