@@ -4,6 +4,31 @@ import Socials from "../components/Socials";
 const Main = () => {
   return (
     <div className=" relative h-screen  text-white overflow-hidden">
+      {/* <div className="absolute left-0 transform -z-10 opacity-20 translate-x-4 -translate-y-1/2 top-1/2">
+        <svg
+          className="filter blur-3xl"
+          width="619"
+          height="371"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M355.661 40.206C507.908 40.206 619-61.411 619 58.454 619 178.319 219.912 371 67.665 371s0-192.681 0-312.546c0-119.865 135.749-18.248 287.996-18.248Z"
+            fill="url(#e)"
+          />
+          <defs>
+            <linearGradient
+              id="e"
+              x1="0"
+              y1="300"
+              x2="30"
+              y2="-5.529"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stopColor="#D6BCFA" />{" "}
+              <stop offset="100%" stopColor="#8B5CF6" />{" "}
+            </linearGradient>
+          </defs>
+        </svg>
+      </div> */}
       {/* Background image */}
       <svg
         className="BgAnimation__svg absolute -z-10 "

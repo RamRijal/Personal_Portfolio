@@ -8,12 +8,12 @@ const Navbar = () => {
             {/* LOGO */}
             <div className="flex-shrink-0  ">
                 <a href="#" title="" className="flex">
-                    <h1 className='text-2xl text-gray-300 font-black'>My <span className='text-violet-700'>Logo</span></h1>
+                    <h1 className='text-2xl text-gray-300 font-black'>My <span className='text-cyan-600'>Logo</span></h1>
                 </a>
             </div>
 
             {/* NAVBAR */}
-            <div className=" xl:w-fit  backdrop-blur-3xl rounded-sm shadow-2xl  border-white max-w-7xl  ">
+            <div className=" xl:w-fit  backdrop-blur-3xl rounded-sm shadow-2xl px-4 border-white max-w-7xl  ">
                 <nav className="flex  items-center justify-between h-auto top-8 lg:h-16 ">
                     <div className="flex lg:hidden">
                         <button type='button' className=' p-2 ' onClick={() => setExpanded(!expanded)}>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
             {/* RESUME CV  BUTTON */}
             <div className={`lg:flex hidden`}>
-                <a href="#" title="" className="items-center justify-center hidden px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-l to-violet-950 from-violet-900 shadow-xl border-white rounded-md lg:inline-flex hover:bg-violet-900 hover:scale-105 focus:scale-100   focus:bg-violet-700" role="button">Download CV </a>
+                <a href="#" title="" className="items-center justify-center hidden px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl border-white rounded-md lg:inline-flex hover:bg-violet-900 hover:scale-105 focus:scale-100   focus:bg-violet-700" role="button">Download CV </a>
             </div>
         </header>
 
