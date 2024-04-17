@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: linear-gradient(to right, #2c0059, #4e1d9d);
+  background-image: linear-gradient(to bottom right, #2c0059, #4e1d9d);
 }
 
 @keyframes moveUpDown {
@@ -24,7 +24,6 @@ body {
   animation: moveUpDown 2s infinite; /* Adjust the duration as needed */
 }
 
-.style
-{
-color:transparent;
+.style {
+  color: transparent;
 }
