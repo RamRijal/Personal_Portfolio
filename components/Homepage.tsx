@@ -1,35 +1,10 @@
 import React from "react";
-import Socials from "../components/Socials";
+import Socials from "./Socials";
 
-const Main = () => {
+const Homepage = () => {
   return (
     <div className=" relative h-screen  text-white overflow-hidden">
-      {/* <div className="absolute left-0 transform -z-10 opacity-20 translate-x-4 -translate-y-1/2 top-1/2">
-        <svg
-          className="filter blur-3xl"
-          width="619"
-          height="371"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M355.661 40.206C507.908 40.206 619-61.411 619 58.454 619 178.319 219.912 371 67.665 371s0-192.681 0-312.546c0-119.865 135.749-18.248 287.996-18.248Z"
-            fill="url(#e)"
-          />
-          <defs>
-            <linearGradient
-              id="e"
-              x1="0"
-              y1="300"
-              x2="30"
-              y2="-5.529"
-              gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#D6BCFA" />{" "}
-              <stop offset="100%" stopColor="#8B5CF6" />{" "}
-            </linearGradient>
-          </defs>
-        </svg>
-      </div> */}
-      {/* Background image */}
+      {/* Background animation
       <svg
         className="BgAnimation__svg absolute -z-10 "
         viewBox="0 0 602 602"
@@ -37,8 +12,8 @@ const Main = () => {
         xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.15">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M201.337 87.437C193.474 79.5738 180.725 79.5738 172.862 87.437L87.437 172.862C79.5739 180.725 79.5739 193.474 87.437 201.337L400.663 514.563C408.526 522.426 421.275 522.426 429.138 514.563L514.563 429.138C522.426 421.275 522.426 408.526 514.563 400.663L201.337 87.437ZM30.4869 115.912C-8.82897 155.228 -8.82897 218.972 30.4869 258.287L343.713 571.513C383.028 610.829 446.772 610.829 486.088 571.513L571.513 486.088C610.829 446.772 610.829 383.028 571.513 343.713L258.287 30.4869C218.972 -8.82896 155.228 -8.82896 115.912 30.4869L30.4869 115.912Z"
             stroke="url(#paint0_radial)"
             id="path_0"></path>
@@ -232,8 +207,8 @@ const Main = () => {
             r="1"
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(301 301) rotate(90) scale(300)">
-            <stop offset="0.333333" stop-color="#FBFBFB"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop offset="0.333333" stopColor="#FBFBFB"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <radialGradient
             id="paint1_radial"
@@ -242,8 +217,8 @@ const Main = () => {
             r="1"
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(301 301) rotate(90) scale(300)">
-            <stop offset="0.333333" stop-color="#FBFBFB"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop offset="0.333333" stopColor="#FBFBFB"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <radialGradient
             id="paint2_radial"
@@ -252,8 +227,8 @@ const Main = () => {
             r="1"
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(301 301) rotate(90) scale(300)">
-            <stop offset="0.333333" stop-color="#FBFBFB"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop offset="0.333333" stopColor="#FBFBFB"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint3_linear"
@@ -262,8 +237,8 @@ const Main = () => {
             x2="269.975"
             y2="218.154"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#945DD6"></stop>
-            <stop offset="1" stop-color="#945DD6" stop-opacity="0"></stop>
+            <stop stopColor="#945DD6"></stop>
+            <stop offset="1" stopColor="#945DD6" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint4_linear"
@@ -272,8 +247,8 @@ const Main = () => {
             x2="451.461"
             y2="338.272"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#945DD6"></stop>
-            <stop offset="1" stop-color="#945DD6" stop-opacity="0"></stop>
+            <stop stopColor="#945DD6"></stop>
+            <stop offset="1" stopColor="#945DD6" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint5_linear"
@@ -282,8 +257,8 @@ const Main = () => {
             x2="357.1"
             y2="129.989"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#F46737"></stop>
-            <stop offset="1" stop-color="#F46737" stop-opacity="0"></stop>
+            <stop stopColor="#F46737"></stop>
+            <stop offset="1" stopColor="#F46737" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint6_linear"
@@ -292,8 +267,8 @@ const Main = () => {
             x2="358.376"
             y2="357.655"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#F46737"></stop>
-            <stop offset="1" stop-color="#F46737" stop-opacity="0"></stop>
+            <stop stopColor="#F46737"></stop>
+            <stop offset="1" stopColor="#F46737" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint7_linear"
@@ -302,8 +277,8 @@ const Main = () => {
             x2="140.472"
             y2="118.996"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#F46737"></stop>
-            <stop offset="1" stop-color="#F46737" stop-opacity="0"></stop>
+            <stop stopColor="#F46737"></stop>
+            <stop offset="1" stopColor="#F46737" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint8_linear"
@@ -312,8 +287,8 @@ const Main = () => {
             x2="439.435"
             y2="276.118"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#13ADC7"></stop>
-            <stop offset="1" stop-color="#13ADC7" stop-opacity="0"></stop>
+            <stop stopColor="#13ADC7"></stop>
+            <stop offset="1" stopColor="#13ADC7" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint9_linear"
@@ -322,8 +297,8 @@ const Main = () => {
             x2="541.339"
             y2="291.454"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#13ADC7"></stop>
-            <stop offset="1" stop-color="#13ADC7" stop-opacity="0"></stop>
+            <stop stopColor="#13ADC7"></stop>
+            <stop offset="1" stopColor="#13ADC7" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint10_linear"
@@ -332,8 +307,8 @@ const Main = () => {
             x2="117.36"
             y2="258.193"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#945DD6"></stop>
-            <stop offset="1" stop-color="#945DD6" stop-opacity="0"></stop>
+            <stop stopColor="#945DD6"></stop>
+            <stop offset="1" stopColor="#945DD6" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint11_linear"
@@ -342,11 +317,11 @@ const Main = () => {
             x2="451.461"
             y2="338.272"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#13ADC7"></stop>
-            <stop offset="1" stop-color="#13ADC7" stop-opacity="0"></stop>
+            <stop stopColor="#13ADC7"></stop>
+            <stop offset="1" stopColor="#13ADC7" stopOpacity="0"></stop>
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
       {/* Text  */}
       <div className="flex flex-col  justify-center items-center pt-16 lg:pt-16 md:pt-9 ">
         <h1 className="text-3xl font-medium pt-10">Hello!</h1>
@@ -363,4 +338,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Homepage;

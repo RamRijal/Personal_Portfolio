@@ -54,22 +54,6 @@ const Contact = () => {
     catch (error) { }
   };
 
-  // this is for github streak
-  //  // this is for github streak 2.0
-  //  // this is for github streak 3.0
-  //  // this is for github streak 4.0
-  //  // this is for github streak 5.0
-  //  // this is for github streak 6.0
-  //  // this is for github streak 7.0
-  //  // this is for github streak 8.0
-  //  // this is for github streak 9.0
-  //  // this is for github streak 10.0
-  //  // this is for github streak 11.0
-  //  // this is for github streak 12.0
-
-
-
-
   return (
     <section className="py-12 overflow-hidden bg-violet-900 sm:py-16 lg:py-20 xl:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">

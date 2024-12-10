@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        "marquee-x": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-y": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+        "scale-up": {
+          "20%": { transform: "scaleY(1.5)", backgroundColor: "#fff" },
+          "40%": { transform: "scaleY(1)" },
+        },
+      },
+      animation: {
+        "marquee-horizontal": "marquee-x var(--duration) infinite linear",
+        "marquee-vertical": "marquee-y var(--duration) linear infinite",
+        "scale-up": "scale-up 1s linear infinite",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
