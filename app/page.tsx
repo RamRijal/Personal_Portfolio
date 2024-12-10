@@ -1,19 +1,18 @@
-import Contact from "./home/contact/page";
-import Main from "./home/page";
-import Experience from "./home/profile/experience/page";
-import Profile from "./home/profile/page";
-import Skills from "./home/profile/skills/page";
-import Projects from "./home/projects/page";
-
+import Experience from "../components/Experience";
+import Homepage from "../components/Homepage";
+import Skills from "../components/Skills";
+import Contact from "./contact/page";
+import Profile from "./profile/page";
+import Projects from "./projects/page";
 export default function Home() {
   return (
-    <div>
-      <Main />
-      <Profile/>
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
-    </div>
+    <>
+      <Homepage />
+      <Profile />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   );
 }
