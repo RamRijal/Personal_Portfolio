@@ -3,8 +3,8 @@ import Socials from "./Socials";
 
 const Homepage = () => {
   return (
-    <div className=" relative h-screen  text-white overflow-hidden">
-      {/* Background animation
+    <div className=" relative h-screen text-white overflow-hidden">
+      {/* Background animation */}
       <svg
         className="BgAnimation__svg absolute -z-10 "
         viewBox="0 0 602 602"
@@ -321,7 +321,7 @@ const Homepage = () => {
             <stop offset="1" stopColor="#13ADC7" stopOpacity="0"></stop>
           </linearGradient>
         </defs>
-      </svg> */}
+      </svg>
       {/* Text  */}
       <div className="flex flex-col  justify-center items-center pt-16 lg:pt-16 md:pt-9 ">
         <h1 className="text-3xl font-medium pt-10">Hello!</h1>

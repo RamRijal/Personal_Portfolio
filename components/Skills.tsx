@@ -4,43 +4,46 @@ import { Stack } from '@/data/data';
 
 const Skills = () => {
   return (
-    <div className=" max-h-screen py-8 sm:py-6 lg:py-8">
-      <div className="flex flex-col mx-auto pb-5 max-w-sm md:max-w-7xl bg-[#7343D9] rounded-3xl  justify-center text-center items-center mb-7">
-        <div className="  my-8">
-          <p className="text-4xl text-center font-semibold text-white">Tech Stack </p>
+    <div className="py-8 sm:py-6 lg:py-8 max-h-screen">
+      <div className="flex flex-col mx-auto pb-5 max-w-md md:max-w-7xl  bg-[#7343D9] rounded-2xl justify-center text-center items-center mb-7 overflow-hidden lg:overflow-visible">
+        {/* TITLE */}
+        <div className="my-8">
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white">Tech Stack</p>
         </div>
-        <div className="p-5 ">
+        {/* SLIDING CONTAINER */}
+        <div className="px-4 sm:px-6 md:px-8 lg:px-10">
           <Marquee pauseOnClick={true}>
-            {Stack?.reverse().map(({ logo, title, description }, index) => (
+            {Stack?.reverse().map(({ logo, title }, index) => (
+
               <div
                 key={index}
-                className="flex  px-4 py-2 flex-col md:flex-row items-center m-2 space-x-2"
+                className="flex px-4 py-2 flex-col md:flex-row items-center m-2 space-x-2"
               >
+                {/* SLIDING CONTENT */}
                 <Image
-                  src={`${logo}`}
+                  src={logo}
                   alt={title}
-                  className="w-18 h-18 rounded-full"
-                  width="100"
-                  height="100"
+                  className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full"
+                  width={100}
+                  height={100}
                 />
-
               </div>
             ))}
           </Marquee>
           <Marquee direction="right" pauseOnClick={true}>
-            {Stack.map((tool, index) => (
+            {Stack.map(({ logo, title }, index) => (
               <div
                 key={index}
-                className="flex bg-darkgray  px-4 py-2 flex-col md:flex-row items-center m-2 space-x-2"
+                className="flex bg-darkgray px-4 py-2 flex-col md:flex-row items-center m-2 "
               >
+                {/* SLIDING CONTENT */}
                 <Image
-                  src={tool.logo}
-                  alt={tool.title}
-                  className="w-18 h-18 rounded-full"
-                  width="100"
-                  height="100"
+                  src={logo}
+                  alt={title}
+                  className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full"
+                  width={100}
+                  height={100}
                 />
-
               </div>
             ))}
           </Marquee>
@@ -48,5 +51,6 @@ const Skills = () => {
       </div>
     </div>
   );
-}
+};
+
 export default Skills;
