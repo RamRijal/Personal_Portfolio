@@ -323,16 +323,16 @@ const Homepage = () => {
         </defs>
       </svg>
       {/* Text  */}
-      <div className="flex flex-col  justify-center items-center pt-16 lg:pt-16 md:pt-9 ">
+      <div className="flex flex-col  justify-center items-center pt-8  lg:pt-16 md:pt-9 ">
         <h1 className="text-3xl font-medium pt-10">Hello!</h1>
-        <h1 className="pt-12 pb-4 text-center font-semibold text-xl">I am</h1>
+        <h1 className="pt-10 pb-4 text-center font-semibold text-xl">I am</h1>
         <h1 className="text-5xl md:text-7xl font-semibold pb-4  text-center ">
           Ram Rijal
         </h1>
         <h1 className="p-10 md:text-5xl text-3xl text-center ">
           A Software <span>Developer</span>
-          <Socials />
         </h1>
+          <Socials />
       </div>
     </div>
   );
