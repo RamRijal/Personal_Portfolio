@@ -7,11 +7,11 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="relative h-auto bg-violet-950 text-white overflow-hidden">
-      <div className="text-center pt-9">
-        <h1 className="projects text-md font-normal text-gray-300">Check out my works</h1>
+      <div className="text-center pt-16">
+        <h1 className="projects text-sm md:text-md font-normal text-gray-300">Check out my works</h1>
         <div className="relative inline-flex ">
           <span className="absolute inset-x-0 bottom-0 border-b-[16px] border-[#0B8DB2]"></span>
-          <h1 className="projects relative pt-2 text-5xl font-semibold">PROJECTS</h1>
+          <h1 className="projects relative pt-2 text-4xl md:text-5xl font-semibold">PROJECTS</h1>
         </div>
       </div>
 
@@ -35,8 +35,8 @@ const Projects = () => {
                 className="absolute scale-[200%] blur-sm lg:blur-none group-hover:scale-[205%] lg:translate-x-1/2 rounded-tl-2xl shadow-lg opacity-30 group-hover:opacity-50 lg:scale-100 lg:group-hover:scale-[103%] transition-all duration-300 ease-in-out z-0 lg:-bottom-1"
                 src={project.imgSrc}
               />
-              <div className="flex flex-col w-1/2 z-10">
-                <h3 className="text-2xl font-extrabold">{project.title}</h3>
+              <div className="flex flex-col w-full md:w-1/2 z-10">
+                <h3 className="text-xl md:text-2xl font-extrabold">{project.title}</h3>
                 <p className="font-semibold">{project.description.slice(0, 30)}</p>
                 <div className="project-link-icon-wrapper absolute right-4 bottom-4 group-hover:text-[#AC58F5] group-hover:rotate-[360deg]">
                   <svg
