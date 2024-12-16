@@ -9,8 +9,9 @@ export default function Home() {
     <>
       <Homepage />
       <Profile />
-      <Experience />
-      <Skills />
+      <div className=" xl:mt-[750px]">
+        <Skills />
+      </div>
       <Experience />
       <Projects />
       <Contact />

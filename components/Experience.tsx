@@ -6,9 +6,9 @@ const Experience = () => {
   return <section className="flex relative rounded-xl justify-center items-center  bg-[#7343D9] py-12 sm:py-16 lg:py-20">
     <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="max-w-lg mx-auto text-left sm:text-center">
-        <h2 className="text-3xl font-bold text-gray-900 sm:text-5xl font-pj">
-          Experience
-        </h2>
+        <div className="text-center">
+          <h2 className="text-3xl font-bold leading-tight text-gray-100 sm:text-4xl lg:text-5xl">Experience</h2>
+        </div>
       </div>
 
       <div className="mt-4 sm:mt-8">

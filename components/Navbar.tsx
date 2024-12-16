@@ -41,7 +41,7 @@ const Navbar = () => {
                             </div>
 
                             <div className="mt-6">
-                                <Link href="/" className="inline-flex justify-center px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700">Download CV</Link>
+                                <Link href="/" className="inline-flex justify-center px-6 py-3 text-lg font-semibold text-white bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl rounded-md hover:bg-violet-900 hover:scale-105">Download CV</Link>
                             </div>
                         </nav>
                     </div>
