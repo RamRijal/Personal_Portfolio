@@ -1,3 +1,4 @@
+import ProjectsDisplay from "@/components/ProjectsDisplay";
 import Experience from "../components/Experience";
 import Homepage from "../components/Homepage";
 import Skills from "../components/Skills";
@@ -8,12 +9,9 @@ export default function Home() {
   return (
     <>
       <Homepage />
-      <Profile />
-      <div className=" xl:mt-[750px]">
-        <Skills />
-      </div>
+      <Skills />
       <Experience />
-      <Projects />
+      <ProjectsDisplay />
       <Contact />
     </>
   );

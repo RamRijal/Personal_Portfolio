@@ -1,15 +1,51 @@
 'use client'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const Navbar = () => {
+    const navRef = useRef<HTMLDivElement>(null)
+
     const [expanded, setExpanded] = useState(false)
+
+    const handleDownloadCV = () => {
+        const link = document.createElement('a');
+        link.href = '/Ram-Rijal-cv.pdf'
+        link.download = 'Ram-Rijal-CV.pdf'
+
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+    // Close menu when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            // Check if the click is outside the nav menu
+            if (navRef.current && !navRef.current.contains(event.target as Node)) {
+                setExpanded(false)
+            }
+        }
+
+        // Add event listener when menu is open
+        if (expanded) {
+            document.addEventListener('mousedown', handleClickOutside)
+        }
+
+        // Cleanup listener
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside)
+        }
+    }, [expanded])
+
+    // Close menu after selecting a menu item
+    const handleMenuItemClick = () => {
+        setExpanded(false)
+    }
     return (
         <header className="navigation z-50 relative flex items-center top-2 justify-between w-full px-6 md:px-16 pt-4 pb-8">
             {/* LOGO */}
             <div className="flex-shrink-0">
                 <Link href="/" className="flex">
-                    <h1 className='text-2xl text-gray-300 font-black'>Ram <span className='text-cyan-600'>Rijal</span></h1>
+                    <h1 className='text-2xl text-gray-300 font-black'>Ram<span className='text-cyan-600'>Rijal</span></h1>
                 </Link>
             </div>
 
@@ -34,14 +70,15 @@ const Navbar = () => {
                         {/* MOBILE NAV */}
                         <nav className={`absolute  top-14 -right-2 w-72 ${expanded ? 'block bg-violet-700 text-white p-6 rounded-lg' : 'hidden'} `}>
                             <div className="space-y-4">
-                                <Link href='/' className="block px-2 py-2 text-lg font-medium transition-all duration-200  hover:bg-[#5833a7] hover:text-white">Home</Link>
+                                <Link href='/' onClick={handleMenuItemClick} className="block px-2 py-2 text-lg font-medium transition-all duration-200  hover:bg-[#5833a7] hover:text-white">Home</Link>
                                 {['Profile', 'Projects', 'Contact'].map((item) => (
-                                    <Link key={item} href={`/${item.toLowerCase()}`} className="block  px-2 py-2 text-lg font-medium transition-all duration-200 hover:bg-[#5833a7] hover:text-white">{item}</Link>
+                                    <Link key={item} href={`/${item.toLowerCase()}`} onClick={handleMenuItemClick} className="block  px-2 py-2 text-lg font-medium transition-all duration-200 hover:bg-[#5833a7] hover:text-white">{item}</Link>
                                 ))}
                             </div>
 
                             <div className="mt-6">
-                                <Link href="/" className="inline-flex justify-center px-6 py-3 text-lg font-semibold text-white bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl rounded-md hover:bg-violet-900 hover:scale-105">Download CV</Link>
+                                <button onClick={() => { handleDownloadCV(); handleMenuItemClick() }
+                                } className="inline-flex justify-center px-6 py-3 text-lg font-semibold text-white bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl rounded-md hover:bg-violet-900 hover:scale-105">Download CV</button>
                             </div>
                         </nav>
                     </div>
@@ -54,13 +91,13 @@ const Navbar = () => {
                         ))}
                     </div>
                 </nav>
-            </div>
+            </div >
 
             {/* RESUME BUTTON */}
-            <div className="hidden lg:flex">
-                <Link href="/" className="px-4 py-3 text-base font-semibold text-white bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl rounded-md hover:bg-violet-900 hover:scale-105">Download CV</Link>
-            </div>
-        </header>
+            < div className="hidden lg:flex" >
+                <button onClick={handleDownloadCV} className="px-4 py-3 text-base font-semibold text-white bg-gradient-to-bl from-cyan-600 to-violet-800 shadow-xl rounded-md hover:bg-violet-900 hover:scale-105">Download CV</button>
+            </ div>
+        </header >
     )
 }
 

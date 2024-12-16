@@ -1,12 +1,12 @@
-import React from "react";
 import Socials from "./Socials";
+import { BlurIn } from "./UI/Blur-in";
 
 const Homepage = () => {
   return (
-    <div className=" relative h-screen text-white overflow-hidden">
+    <div className=" relative  min-h-full text-white mb-36">
       {/* Background animation */}
       <svg
-        className="BgAnimation__svg absolute -z-10 "
+        className="BgAnimation__svg absolute -z-10 flex justify-center items-center "
         viewBox="0 0 602 602"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -323,16 +323,18 @@ const Homepage = () => {
         </defs>
       </svg>
       {/* Text  */}
-      <div className="flex flex-col  justify-center items-center pt-8  lg:pt-16 md:pt-9 ">
-        <h1 className="text-3xl font-medium pt-10">Hello!</h1>
-        <h1 className="pt-10 pb-4 text-center font-semibold text-xl">I am</h1>
-        <h1 className="text-5xl md:text-7xl font-semibold pb-4  text-center ">
+      <div className="flex flex-col  justify-center items-center mt-8 ">
+        <BlurIn><h1 className="text-3xl font-medium pt-10">Hello!</h1></BlurIn>
+        <BlurIn><h1 className="pt-10 pb-4 text-center font-semibold text-xl">I am</h1></BlurIn>
+        <BlurIn><h1 className="text-5xl md:text-7xl font-semibold pb-4  text-center ">
           Ram Rijal
         </h1>
-        <h1 className="p-10 md:text-5xl text-3xl text-center ">
+        </BlurIn>
+        <BlurIn><h1 className="p-10 md:text-5xl text-3xl text-center ">
           A Software <span>Developer</span>
         </h1>
-          <Socials />
+        </BlurIn>
+        <Socials />
       </div>
     </div>
   );
