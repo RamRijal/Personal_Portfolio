@@ -1,13 +1,19 @@
 import { blogPosts } from '@/data/data';
 import Image from 'next/image';
+import { TextFade } from './UI/TextFade';
 
 
 const Experience = () => {
-  return <section className="flex relative rounded-xl justify-center items-center  bg-[#7343D9] py-12 sm:py-16 lg:py-20">
+  return <section className="flex relative rounded-xl justify-center items-center  bg-[#5D22B8] py-12 sm:py-16 lg:py-20">
     <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="max-w-lg mx-auto text-left sm:text-center">
         <div className="text-center">
-          <h2 className="text-3xl font-bold leading-tight text-gray-100 sm:text-4xl lg:text-5xl">Experience</h2>
+          <TextFade
+            direction="down"
+            className="pt-0 pb-5 flex-col flex justify-center items-center space-y-0"
+          >
+            <h2 className="text-3xl font-bold leading-tight text-gray-100 sm:text-4xl lg:text-5xl">Experience</h2>
+          </TextFade>
         </div>
       </div>
 
