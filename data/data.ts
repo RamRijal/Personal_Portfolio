@@ -82,19 +82,19 @@ export const ProjectsList = [
   {
     id: "1",
     color: "#02EC64",
-    title: "Personal Portfolio Website",
+    title: "Classic Game Website",
     description:
-      "A modern and responsive portfolio website built with React, Next.js, and Tailwind CSS.",
-    redirectLink: "https://example.com/portfolio",
+      "A modern responsive dashboard website for games built with Next.js,MUI ",
+    redirectLink: "https://classix-games-ufzcji43r-ram-rijal.vercel.app",
     imgSrc:
-      "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
+      "/classix.png",
   },
   {
     id: "2",
     color: "#E24E25",
-    title: "E-commerce Platform",
+    title: "Furniture Ecommerce Platform",
     description:
-      "A full-stack e-commerce platform with secure payment integration and real-time product management.",
+      "A e-commerce platform for furniture.",
     redirectLink: "https://example.com/ecommerce",
     imgSrc:
       "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
