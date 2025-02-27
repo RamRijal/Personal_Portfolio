@@ -6,7 +6,7 @@ import { TextFade } from "./UI/TextFade";
 const Skills = () => {
   return (
     <div className="py-8 sm:py-6 lg:py-12 max-h-screen ">
-      <div className="flex flex-col mx-auto pb-5 max-w-md md:max-w-7xl  shadow-xl bg-opacity-25 bg-[#7343D9] rounded-2xl justify-center text-center items-center mb-7 overflow-hidden lg:overflow-visible">
+      <div className="flex flex-col mx-auto pb-5 max-w-md md:max-w-7xl  shadow-xl bg-opacity-25 bg-[#7343D9] md:rounded-2xl justify-center text-center items-center mb-7 overflow-hidden lg:overflow-visible">
         {/* TITLE */}
         <div className="my-8">
           <TextFade

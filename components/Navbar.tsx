@@ -9,8 +9,8 @@ const Navbar = () => {
 
     const handleDownloadCV = () => {
         const link = document.createElement('a');
-        link.href = '/Ram-Rijal-cv.pdf'
-        link.download = 'Ram-Rijal-CV.pdf'
+        link.href = '/RamRijal-CV.pdf'
+        link.download = 'RamRijal-CV.pdf'
 
         document.body.appendChild(link)
         link.click()

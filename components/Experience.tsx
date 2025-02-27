@@ -17,7 +17,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className="mt-4 sm:mt-8">
+      <div className="hidden mt-2 sm:mt-2">
         <svg
           className="w-auto h-4 text-gray-300 sm:mx-auto"
           viewBox="0 0 172 16"
