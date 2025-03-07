@@ -81,43 +81,38 @@ export const blogPosts = [
 export const ProjectsList = [
   {
     id: "1",
-    color: "#02EC64",
-    title: "Classic Game Website",
+    color: "#D0021B",
+    title: "JaggaJamin -Real Estate website",
     description:
-      "A modern responsive dashboard website for games built with Next.js,MUI ",
-    redirectLink: "https://classix-games-ufzcji43r-ram-rijal.vercel.app",
-    imgSrc:
-      "/classix.png",
+      "A real estate platform offering comprehensive property listings, easy search options, and expert insights for buying, selling, or renting homes in Nepal.",
+    redirectLink: "https://jaggajamin.vercel.app",
+    imgSrc: "/jaggajamin.png",
   },
   {
     id: "2",
-    color: "#E24E25",
-    title: "Furniture Ecommerce Platform",
-    description:
-      "A e-commerce platform for furniture.",
+    color: "#033AA8",
+    title: "FurphingFurniture -Ecommerce Platform",
+    description: "A e-commerce platform for furniture.",
     redirectLink: "https://example.com/ecommerce",
-    imgSrc:
-      "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
+    imgSrc: "/FurphingFurniture.png",
   },
   {
     id: "3",
-    color: "#F0DC4E",
-    title: "Social Media App",
+    color: "#F5A623",
+    title: "ClassixGames -Game Website",
     description:
-      "A social media app with real-time chat, notifications, and a customizable user profile system.",
-    redirectLink: "https://example.com/social-app",
-    imgSrc:
-      "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
+      "A modern responsive dashboard website for games built with Next.js,MUI ",
+    redirectLink: "https://classix-games-ufzcji43r-ram-rijal.vercel.app",
+    imgSrc: "/classix.png",
   },
   {
     id: "4",
-    color: "#07B6D4",
+    color: "#2ECC71",
     title: "Task Management Tool",
     description:
       "A task management web app with team collaboration, project timelines, and task prioritization.",
     redirectLink: "https://example.com/task-manager",
-    imgSrc:
-      "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
+    imgSrc: "/FurphingFurniture.png",
   },
   {
     id: "5",
@@ -126,9 +121,27 @@ export const ProjectsList = [
     description:
       "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
     redirectLink: "https://example.com/weather-app",
-    imgSrc:
-      "https://cdn.rareblocks.xyz/collection/clarity/images/blog/2/blog-2.png",
+    imgSrc: "/jaggajamin.png",
   },
+  {
+    id: "6",
+    color: "#D35400",
+    title: "Weather Forecast App",
+    description:
+      "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
+    redirectLink: "https://example.com/weather-app",
+    imgSrc: "/classix.png",
+  },
+  // {
+  //   id: "7",
+  //   color: "#2ECC71",
+  //   title: "Weather Forecast App",
+  //   description:
+  //     "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
+  //   redirectLink: "https://example.com/weather-app",
+  //   imgSrc:
+  //     "/classix.png",
+  // },
 ];
 
 export const About = [
