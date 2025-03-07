@@ -28,7 +28,7 @@ const ProjectsListing = () => {
                         <div className="flex flex-col w-full md:w-1/2 z-10">
                             <h3 className="text-xl md:text-2xl font-extrabold">{project.title}</h3>
                             <p className="font-semibold">{project.description.slice(0, 30)}</p>
-                            <div className="project-link-icon-wrapper absolute right-4 bottom-4 group-hover:text-[#AC58F5] group-hover:rotate-[360deg]">
+                            <div className="project-link-icon-wrapper absolute right-4 bottom-4 group-hover:scale-125 group-hover:rotate-[360deg]">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
