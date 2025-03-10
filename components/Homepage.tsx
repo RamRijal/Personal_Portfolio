@@ -324,7 +324,7 @@ const Homepage = () => {
       </svg>
       {/* Text  */}
       <div className="flex flex-col  justify-center items-center mt-8 ">
-        <BlurIn><h1 className="text-3xl font-medium pt-10">Hello!</h1></BlurIn>
+        <BlurIn><h1 className="text-3xl font-medium pt-10">Hello &nbsp;!</h1></BlurIn>
         <BlurIn><h1 className="pt-10 pb-4 text-center font-semibold text-xl">I&nbsp;&nbsp;&nbsp;am</h1></BlurIn>
         <BlurIn><h1 className="text-5xl md:text-7xl font-semibold pb-4  text-center ">
           Ram Rijal

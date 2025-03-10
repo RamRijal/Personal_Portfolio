@@ -58,7 +58,7 @@ export const blogPosts = [
     company: "Baliyo Ventures",
     dateFrom: "November 22, 2021",
     dateTo: "November 22, 2021",
-    imgSrc: "/Coding3.png",
+    imgSrc: "/baliyo-logo.svg",
   },
   {
     id: 2,
@@ -66,9 +66,8 @@ export const blogPosts = [
     company: "KitabYatra",
     dateFrom: "November 22, 2021",
     dateTo: "November 22, 2021",
-    imgSrc: "/Coding2.png",
+    imgSrc: "/KitabYatra.jpg",
   },
-  
 ];
 
 export const ProjectsList = [
@@ -80,7 +79,7 @@ export const ProjectsList = [
       "A real estate platform offering comprehensive property listings, easy search options, and expert insights for buying, selling, or renting homes in Nepal.",
     redirectLink: "https://jaggajamin.vercel.app",
     imgSrc: "/jaggajamin.png",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    stack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS"],
   },
   {
     id: "2",
@@ -88,9 +87,9 @@ export const ProjectsList = [
     title: "FurphingFurniture - Ecommerce Platform",
     description:
       "An e-commerce platform for furniture with a modern and responsive design.",
-    redirectLink: "https://example.com/ecommerce",
+    redirectLink: "Under development",
     imgSrc: "/FurphingFurniture.png",
-    stack: ["Next.js", "TypeScript", "Shadcn", "MUI"],
+    stack: ["Next.js", "TypeScript", "MUI"],
   },
   {
     id: "3",
@@ -168,7 +167,7 @@ export const About = [
     description:
       "Expertise in JavaScript, React, Next.js, TypeScript, and full-stack development using the MERN stack.",
     number: "03",
-    details: { 'name': "Ram Rijal", 'dob': "2001-12-24", 'residence': "Lalitpur" },
+    details: { name: "Ram Rijal", dob: "2001-12-24", residence: "Lalitpur" },
   },
   {
     id: 4,
@@ -176,6 +175,6 @@ export const About = [
     description:
       "Experience includes developing dynamic web applications such as a car racing game, a furniture e-commerce platform, and an advanced dashboard system.",
     number: "04",
-    details: { 'name': "Ram Rijal", 'dob': "2001-12-24", 'residence': "Lalitpur" },
+    details: { name: "Ram Rijal", dob: "2001-12-24", residence: "Lalitpur" },
   },
 ];
