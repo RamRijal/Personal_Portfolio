@@ -63,75 +63,75 @@ export const blogPosts = [
   {
     id: 2,
     title: "Junior Frontend Developer",
-    company: "Kitab Yatra Pvt. Ltd.",
+    company: "KitabYatra",
     dateFrom: "November 22, 2021",
     dateTo: "November 22, 2021",
     imgSrc: "/Coding2.png",
   },
-  {
-    id: 3,
-    title: "Senior Software Developer",
-    company: "Cedar Gate ",
-    dateFrom: "November 22, 2021",
-    dateTo: "November 22, 2021",
-    imgSrc: "/Coding.png",
-  },
+  
 ];
 
 export const ProjectsList = [
   {
     id: "1",
     color: "#D0021B",
-    title: "JaggaJamin -Real Estate website",
+    title: "JaggaJamin - Real Estate website",
     description:
       "A real estate platform offering comprehensive property listings, easy search options, and expert insights for buying, selling, or renting homes in Nepal.",
     redirectLink: "https://jaggajamin.vercel.app",
     imgSrc: "/jaggajamin.png",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     id: "2",
     color: "#033AA8",
-    title: "FurphingFurniture -Ecommerce Platform",
-    description: "A e-commerce platform for furniture.",
+    title: "FurphingFurniture - Ecommerce Platform",
+    description:
+      "An e-commerce platform for furniture with a modern and responsive design.",
     redirectLink: "https://example.com/ecommerce",
     imgSrc: "/FurphingFurniture.png",
+    stack: ["Next.js", "TypeScript", "Shadcn", "MUI"],
   },
   {
     id: "3",
     color: "#F5A623",
-    title: "ClassixGames -Game Website",
+    title: "ClassixGames - Game Website",
     description:
-      "A modern responsive dashboard website for games built with Next.js,MUI ",
+      "A modern responsive dashboard website for games built with Next.js and MUI.",
     redirectLink: "https://classix-games-ufzcji43r-ram-rijal.vercel.app",
     imgSrc: "/classix.png",
+    stack: ["Next.js", "TypeScript", "MUI", "Tailwind CSS"],
   },
-  {
-    id: "4",
-    color: "#2ECC71",
-    title: "Task Management Tool",
-    description:
-      "A task management web app with team collaboration, project timelines, and task prioritization.",
-    redirectLink: "https://example.com/task-manager",
-    imgSrc: "/FurphingFurniture.png",
-  },
-  {
-    id: "5",
-    color: "#222222",
-    title: "Weather Forecast App",
-    description:
-      "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
-    redirectLink: "https://example.com/weather-app",
-    imgSrc: "/jaggajamin.png",
-  },
-  {
-    id: "6",
-    color: "#D35400",
-    title: "Weather Forecast App",
-    description:
-      "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
-    redirectLink: "https://example.com/weather-app",
-    imgSrc: "/classix.png",
-  },
+  // {
+  //   id: "4",
+  //   color: "#2ECC71",
+  //   title: "Task Management Tool",
+  //   description:
+  //     "A task management web app with team collaboration, project timelines, and task prioritization.",
+  //   redirectLink: "https://example.com/task-manager",
+  //   imgSrc: "/FurphingFurniture.png",
+  //   stack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS"],
+  // },
+  // {
+  //   id: "5",
+  //   color: "#222222",
+  //   title: "Weather Forecast App",
+  //   description:
+  //     "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
+  //   redirectLink: "https://example.com/weather-app",
+  //   imgSrc: "/jaggajamin.png",
+  //   stack: ["Next.js", "TypeScript", "MUI"],
+  // },
+  // {
+  //   id: "6",
+  //   color: "#D35400",
+  //   title: "Weather Forecast App",
+  //   description:
+  //     "A weather app that shows real-time weather updates, forecasts, and custom location tracking.",
+  //   redirectLink: "https://example.com/weather-app",
+  //   imgSrc: "/classix.png",
+  //   stack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS"],
+  // },
   // {
   //   id: "7",
   //   color: "#2ECC71",
@@ -141,6 +141,7 @@ export const ProjectsList = [
   //   redirectLink: "https://example.com/weather-app",
   //   imgSrc:
   //     "/classix.png",
+  //   stack: ["Next.js", "TypeScript", "MUI", "Tailwind CSS"],
   // },
 ];
 
@@ -151,6 +152,7 @@ export const About = [
     description:
       "A dedicated software developer with a strong foundation in web technologies and a passion for creating efficient and scalable solutions.",
     number: "01",
+    details: { name: "Ram Rijal", dob: "2001-12-24", residence: "Lalitpur" },
   },
   {
     id: 2,
@@ -158,6 +160,7 @@ export const About = [
     description:
       "Holds a Bachelor's degree in CSIT with ongoing preparation for a master’s program in a globally recognized institution.",
     number: "02",
+    details: { name: "Ram Rijal", dob: "2001-12-24", residence: "Lalitpur" },
   },
   {
     id: 3,
@@ -165,6 +168,7 @@ export const About = [
     description:
       "Expertise in JavaScript, React, Next.js, TypeScript, and full-stack development using the MERN stack.",
     number: "03",
+    details: { 'name': "Ram Rijal", 'dob': "2001-12-24", 'residence': "Lalitpur" },
   },
   {
     id: 4,
@@ -172,5 +176,6 @@ export const About = [
     description:
       "Experience includes developing dynamic web applications such as a car racing game, a furniture e-commerce platform, and an advanced dashboard system.",
     number: "04",
+    details: { 'name': "Ram Rijal", 'dob': "2001-12-24", 'residence': "Lalitpur" },
   },
 ];
