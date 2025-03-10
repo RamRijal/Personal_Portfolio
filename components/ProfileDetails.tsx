@@ -1,7 +1,6 @@
 import { About } from "@/data/data";
-import Socials from "./Socials";
-import Image from "next/image";
 import Profile from "@/public/profile.jpg";
+import Image from "next/image";
 import { TextFade } from "./UI/TextFade";
 
 const ProfileDetails = () => {
@@ -49,33 +48,3 @@ const ProfileDetails = () => {
 
 export default ProfileDetails;
 
-export const About = [
-  {
-    id: 1,
-    title: "Introduction",
-    description:
-      "A dedicated software developer with a strong foundation in web technologies and a passion for creating efficient and scalable solutions.",
-    number: "01",
-  },
-  {
-    id: 2,
-    title: "Education",
-    description:
-      "Holds a Bachelor's degree in CSIT with ongoing preparation for a master’s program in a globally recognized institution.",
-    number: "02",
-  },
-  {
-    id: 3,
-    title: "Skills",
-    description:
-      "Expertise in JavaScript, React, Next.js, TypeScript, and full-stack development using the MERN stack.",
-    number: "03",
-  },
-  {
-    id: 4,
-    title: "Experience",
-    description:
-      "Experience includes developing dynamic web applications such as a car racing game, a furniture e-commerce platform, and an advanced dashboard system.",
-    number: "04",
-  },
-];

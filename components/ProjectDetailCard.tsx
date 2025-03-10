@@ -13,7 +13,7 @@ const ProjectDetailCard = () => {
 
     const totalPages = Math.ceil(ProjectsList.length / projectsPerPage);
 
-    const handlePageChange = (pageNumber) => {
+    const handlePageChange = (pageNumber: React.SetStateAction<number>) => {
         setCurrentPage(pageNumber);
     };
 
