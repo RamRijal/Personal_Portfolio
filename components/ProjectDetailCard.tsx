@@ -43,17 +43,17 @@ const ProjectDetailCard = () => {
                             className={`flex h-full w-full justify-center items-center font-bold text-3xl text-center `}>{project.title}</span>
                         </div>
                     </Link>
-                    <div className="content flex flex-col w-full md:w-3/5 bg-white text-black p-6 rounded-xl shadow-md gap-4">
-                        <span className='text-3xl font-semibold text-gray-800'>{project.title}</span>
-                        <p className='mt-2 font-semibold text-gray-500'>Description: &nbsp;<span className='font-medium text-black'>{project.description}</span></p>
-                        <p className='mt-2 font-semibold text-gray-500'>Tech stack: &nbsp;
+                    <div className="content flex flex-col w-full md:w-3/5 bg-white p-6 rounded-xl shadow-md gap-4">
+                        <span className='text-3xl font-semibold text-violet-700'>{project.title}</span>
+                        <p className='mt-2 font-semibold text-gray-400'>Description: &nbsp;<span className='font-medium text-black'>{project.description}</span></p>
+                        <p className='mt-2 font-semibold text-gray-400'>Tech stack: &nbsp;
                             {project.stack.map((stacks) => (
-                                <button key={stacks} className='font-medium text-sm mr-2 bg-gray-400 p-2 rounded-xl text-white'>
+                                <button key={stacks} className='font-medium text-sm mr-2 bg-[#9e7fbe] py-2 px-3 rounded-xl text-white'>
                                     {stacks}
                                 </button>
                             ))}
                         </p>
-                        <p className='mt-2 font-semibold text-gray-500'>Link: &nbsp;
+                        <p className='mt-2 font-semibold text-gray-400'>Link: &nbsp;
                             <a href={project.redirectLink} target="_blank" className='font-medium text-purple-800 hover:underline'>
                                 {project.redirectLink}
                             </a>

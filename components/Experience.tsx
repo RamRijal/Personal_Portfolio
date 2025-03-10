@@ -187,24 +187,24 @@ const Experience = () => {
                     />
                   </div>
                   <div className="mt-8 sm:mt-0 sm:ml-10">
-                    <p className="text-xl font-bold text-gray-900 font-pj mb-1">
+                    <p className="text-3xl font-bold text-[#D8B4FE] font-pj mb-1">
                       {data.title}
                     </p>
-                    <p className="text-lg font-medium text-gray-900 font-pj">
+                    <p className="text-lg font-medium text-[#b06df7] font-pj">
                       {data.company}
                     </p>
                     <div className="flex">
-                      <p className="mt-5 text-sm font-semibold text-gray-300 font-pj">
+                      <p className="mt-2 text-sm font-semibold text-gray-300 font-pj">
                         {data.dateFrom} -
                       </p>
-                      <p className="mt-5 text-sm font-semibold text-gray-300 font-pj">
+                      <p className="mt-2 text-sm font-semibold text-gray-300 font-pj">
                         &nbsp;{data.dateTo}</p>
                     </div>
-                    <a href="#" title="">
+                    {/* <a href="#" title="">
                       <span
                         className="absolute inset-0"
                         aria-hidden="true"></span>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               )

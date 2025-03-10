@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
 
             {/* NAVBAR */}
-            <div className="xl:w-fit rounded-lg  max-w-7xl">
+            <div className="xl:w-fit rounded-lg bg-violet-900 shadow-xl bg-opacity-40 p-4 px-12 max-w-7xl">
                 <nav className="flex items-center justify-between">
                     {/* HAMBURGER TOGGLE */}
                     <div className="flex lg:hidden ml-auto relative">
