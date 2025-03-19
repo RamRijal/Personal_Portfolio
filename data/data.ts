@@ -83,13 +83,13 @@ export const ProjectsList = [
   },
   {
     id: "2",
-    color: "#033AA8",
-    title: "FurphingFurniture - Ecommerce Platform",
+    color: "#2ECC71",
+    title: "TapSolve - NFC card website",
     description:
-      "An e-commerce platform for furniture with a modern and responsive design.",
-    redirectLink: "Under development",
-    imgSrc: "/FurphingFurniture.png",
-    stack: ["Next.js", "TypeScript", "MUI"],
+      "A product-based web app with modern responsive design for products ecommerce .",
+    redirectLink: "https://tapsolve.netlify.app",
+    imgSrc: "/TapSolve.png",
+    stack: ["React.js", "TypeScript", "Tailwind CSS"],
   },
   {
     id: "3",
@@ -101,16 +101,16 @@ export const ProjectsList = [
     imgSrc: "/classix.png",
     stack: ["Next.js", "TypeScript", "MUI", "Tailwind CSS"],
   },
-  // {
-  //   id: "4",
-  //   color: "#2ECC71",
-  //   title: "Task Management Tool",
-  //   description:
-  //     "A task management web app with team collaboration, project timelines, and task prioritization.",
-  //   redirectLink: "https://example.com/task-manager",
-  //   imgSrc: "/FurphingFurniture.png",
-  //   stack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS"],
-  // },
+  {
+    id: "4",
+    color: "#033AA8",
+    title: "FurphingFurniture - Ecommerce Platform",
+    description:
+      "An e-commerce platform for furniture with a modern and responsive design.",
+    redirectLink: "Under development",
+    imgSrc: "/FurphingFurniture.png",
+    stack: ["Next.js", "TypeScript", "MUI"],
+  },
   // {
   //   id: "5",
   //   color: "#222222",
